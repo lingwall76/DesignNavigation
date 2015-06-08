@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26A4B1B41B026AB300EEB26F /* AppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4B1B31B026AB300EEB26F /* AppearanceManager.m */; };
 		713E08CC193F77D9006CA563 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E08CB193F77D9006CA563 /* Foundation.framework */; };
 		713E08CE193F77D9006CA563 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E08CD193F77D9006CA563 /* CoreGraphics.framework */; };
 		713E08D0193F77D9006CA563 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713E08CF193F77D9006CA563 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26A4B1B21B026AB300EEB26F /* AppearanceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppearanceManager.h; sourceTree = "<group>"; };
+		26A4B1B31B026AB300EEB26F /* AppearanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppearanceManager.m; sourceTree = "<group>"; };
 		713E08C8193F77D9006CA563 /* DesignNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		713E08CB193F77D9006CA563 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		713E08CD193F77D9006CA563 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				713E08FA193F7938006CA563 /* DNPlaygroundViewController.h */,
 				713E08FB193F7938006CA563 /* DNPlaygroundViewController.m */,
 				713E08FC193F7938006CA563 /* DNPlaygroundViewController.xib */,
+				26A4B1B21B026AB300EEB26F /* AppearanceManager.h */,
+				26A4B1B31B026AB300EEB26F /* AppearanceManager.m */,
 				713E08DD193F77D9006CA563 /* Images.xcassets */,
 				713E08D2193F77D9006CA563 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				713E08FD193F7938006CA563 /* DNPlaygroundViewController.m in Sources */,
+				26A4B1B41B026AB300EEB26F /* AppearanceManager.m in Sources */,
 				713E08DC193F77D9006CA563 /* DNAppDelegate.m in Sources */,
 				713E08D8193F77D9006CA563 /* main.m in Sources */,
 			);
@@ -448,6 +454,7 @@
 				713E08F6193F77D9006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		713E08F7193F77D9006CA563 /* Build configuration list for PBXNativeTarget "DesignNavigationTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +463,7 @@
 				713E08F9193F77D9006CA563 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,12 +8,15 @@
 
 #import "DNAppDelegate.h"
 #import "DNPlaygroundViewController.h"
+#import "AppearanceManager.h"
 
 @implementation DNAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    [AppearanceManager setUpDefaultAppearance];
     
     self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[DNPlaygroundViewController new]];
     
